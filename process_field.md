@@ -11,7 +11,7 @@ function mymodule_preprocess_field(&$variables) {
 ```
 Voila! Now you have access to preprocess fields... even ones you didn't create.
 A quick tip: In order to preprocess a single field, use a conditional statement to check the "#field_name".
-
+Link: http://anthonypower.com/notebook/preprocessing-fields-module-drupal-7
 
 You can use template_preprocess_field() (like you do in your code above) but just test the particular field is the right one for you:
 ```php
