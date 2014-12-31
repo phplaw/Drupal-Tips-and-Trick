@@ -26,3 +26,5 @@ function my_theme_preprocess_field(&$variables, $hook) {
 ```
 Once you've implemented the hook don't forget to clear your caches, hook implementations are cached in Drupal 7 so won't be picked up until the cache is cleared.
 Link: http://stackoverflow.com/questions/7582108/how-do-i-call-my-theme-preprocess-function-for-a-specific-field
+
+http://drupal.stackexchange.com/questions/49946/how-do-you-get-template-preprocess-functions-to-fire-on-hook-theme-suggestions
